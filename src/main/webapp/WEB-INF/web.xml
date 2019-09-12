@@ -4,4 +4,16 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+  <!--<servlet>-->
+    <!--<servlet-name>ByServlet</servlet-name>-->
+    <!--<servlet-class>servlets.ByServlet</servlet-class>-->
+  <!--</servlet>-->
+
+  <!--<servlet-mapping>-->
+    <!--<servlrt-name>ByServlet</servlrt-name>-->
+    <!--<url-pattern>/by</url-pattern>-->
+  <!--</servlet-mapping>-->
+
+
 </web-app>

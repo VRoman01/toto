@@ -8,10 +8,10 @@ import java.util.List;
 
 public class UserRepository implements Repository<User> {
 
-    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DATABASE_URL = "jdbc:mysql://localhost:3306/test?useSSL=false&serverTimezone=UTC";
-    static final String USER = "root";
-    static final String PASSWORD = "root";
+    private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+    private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/test?useSSL=false&serverTimezone=UTC";
+    private static final String USER = "root";
+    private static final String PASSWORD = "root";
     private Connection connection;
 
     public UserRepository() {
